@@ -1,0 +1,5 @@
+{
+    "mobile_number": "xpath=//input[@placeholder='Your mobile number']",
+    "send_sms": "xpath=//button[text()='SEND SMS CODE']",
+    "otp_input": "xpath=//input[@aria-label='Please enter your pin code']"
+}

@@ -1,0 +1,13 @@
+{
+    "main": {
+        "view_menu_btn": "xpath=//button//div[text()='View menu']",
+        "order_type_selector": "xpath=//button[text()='rplc_me']",
+        "search_bar": "css=input[placeholder=Search]",
+        "settings": "css=button > svg",
+        "cart_btn": "css=div[aria-label=Cart]"
+    },
+    "menu_sidebar": {
+        "category_selector": "xpath=//div[@role='button'][contains(text(), 'rplc_me')]",
+        "sub_category_selector": "xpath=//a//span[text()='rplc_me']"
+    }
+}

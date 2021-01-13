@@ -1,0 +1,11 @@
+{
+    "type_headers": "xpath=//h1[text()='rplc_me']",
+    "menu_item_selector": "xpath=//div[@data-testid='menu-item-name']/div[text()='rplc_me']",
+    "order_modal": {
+        "modal_selector": "css=div[data-baseweb='modal']",
+        "options_selector": "xpath=//div[text()='rplc_me']",
+        "quantity_subtract": "css=button[aria-label='Remove one']",
+        "quantity_add": "css=button[aria-label='Add one']",
+        "add_to_cart": "css=button[data-testid='add-to-cart']"
+    }
+}

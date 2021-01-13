@@ -1,0 +1,10 @@
+{
+    "name": "xpath=//input[@name='name']",
+    "payment_options": {
+        "add_credit_debit_card": "xpath=//button[text()='Credit/Debit card']",
+        "google_pay": "xpath=//button[text()='Google Pay']",
+        "start_tab": "xpath=//button[text()='Start a tab']",
+        "existing_card": "xpath=//div/div[text()='rplc_type'][text()='rplc_date'][text()='rplc_digits']"
+    },
+    "pay_now_btn": "xpath=//button/div[text()='PAY NOW']"
+}

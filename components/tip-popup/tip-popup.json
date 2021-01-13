@@ -1,0 +1,3 @@
+{
+    "next_time_btn": "xpath=//button[text()='Maybe next time']"
+}

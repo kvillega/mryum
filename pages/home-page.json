@@ -1,0 +1,30 @@
+{
+    "main_page": {
+        "guest_register_btn": "xpath=//button[text()='Guest Register']",
+        "view_dine_in_menu_btn": "xpath=//button[text()='View Dine in Menu']",
+        "view_pickup_menu_btn": "xpath=//button[text()='View Pickup Menu']",
+        "view_delivery_menu_btn": "xpath=//button[text()='View Delivery Menu']"
+    },
+    "main_category_page": {
+        "drinks_link": "xpath=//h1[contains(text(),'Drinks')]",
+        "lunch_link": "xpath=//h1[contains(text(),'Lunch')]",
+        "breakfast_link": "xpath=//h1[contains(text(),'Breakfast')]"
+    },
+    "modals": {
+        "guest_register_modal": {
+            "full_name_input": "css=input[placeholder=\"Your full name\"]",
+            "full_name_input_error": "xpath=//div[text()='Full name is required']",
+            "mobile_number_input": "css=input[placeholder=\"Your mobile/landline number\"]",
+            "mobile_number_inut_error": "xpath=//div[text()='Mobile/Landline number is required']",
+            "table_number_input": "css=input[placeholder=\"Table number\"]",
+            "submit_btn": "xpath=//button[text()='Submit']",
+            "submit_and_add_btn": "xpath=//button[text()='Submit & Add Another Guest']"
+        },
+        "dine_in_table_number_modal": {
+            "table_number_input": "css=input[placeholder=\"Enter your table number\"]",
+            "table_number_input_empty_error": "xpath=//div[text()='Table number is required']",
+            "table_number_input_invalid_error": "xpath=//div[text()='Please use a table number between 1 and 100']",
+            "table_number_submit_btn": "xpath=//button[text()='Confirm']"
+        }
+    }
+}

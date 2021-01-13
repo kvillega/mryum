@@ -1,0 +1,11 @@
+{
+    "environment": "https://staging.mryum.com/demo",
+    "timeout": 60000,
+    "browser": {
+        "headless": false,
+        "viewport": {
+            "width": 1600,
+            "height": 900
+        }
+    }
+}

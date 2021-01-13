@@ -1,0 +1,14 @@
+{
+    "table_number": "xpath=//button//p[contains(text(), Table)]",
+    "item": {
+        "container": "css=div[data-testid=cart-item-container]", 
+        "name": "xpath=//div[@data-testid='cart-item-container']/div/div[@data-baseweb='typo-subheadingmedium'][not(contains(text(), '$'))]",
+        "details": "xpath=(//div[@data-testid='cart-item-container']/div/div[@data-baseweb='typo-subheadingmedium'][not(contains(text(), '$'))])[rplc_idx]/following-sibling::div/div",
+        "quantity": "xpath=(//div[@data-testid='cart-item-container'])[rplc_idx]//button[@aria-label='Remove one']/following-sibling::div",
+        "add_quantity": "xpath=(//div[@data-testid='cart-item-container'])[rplc_idx]//button[@aria-label='Add one']",
+        "subtract_quantity": "xpath=(//div[@data-testid='cart-item-container'])[rplc_idx]//button[@aria-label='Remove one']",
+        "price": "xpath=(//div[@data-testid='cart-item-container'])[rplc_idx]//div[contains(text(), '$')]"
+    },
+    "total": "xpath=//div[text()='Total']/following-sibling::div",
+    "checkout": "xpath=//button[div[contains(text(), 'CHECKOUT')]]"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "mryum",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "esm": "^3.2.25",
+    "rfr": "^1.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "playwright": "^1.7.1"
+  },
+  "scripts": {
+    "run-e2e": "mocha -r esm test/e2e/dine-in/dine-in.ts --timeout 120000"
+  }
+}

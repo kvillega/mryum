@@ -1,0 +1,61 @@
+{
+    "test": {
+        "guest_info": {
+            "full_name": "Kyle V",
+            "payment": {
+                "type": "existing",
+                "details": {
+                    "card_type": "VISA",
+                    "card_expiry": "9/2023",
+                    "card_digits": "4242"
+                }
+            },
+            "mobile_number": "61400000000",
+            "otp": "3066"
+        },
+        "dine_in": {
+            "table_number": "23",
+            "table_number_min": "1",
+            "table_number_max": "100",
+            "orders": [
+                {
+                    "category": "Drinks",
+                    "type": "Beer",
+                    "name": "Laneway Lager by Stomping Ground",
+                    "details": ["Potato Chips"],
+                    "expected_cart_details": ["3x Potato Chips"],
+                    "quantity": 3,
+                    "expected_total": "$60.00"
+                },
+                {
+                    "category": "Drinks",
+                    "type": "Coffee",
+                    "name": "Latte",
+                    "details": ["Skim Milk", "2 Sugars"],
+                    "expected_cart_details": ["1x Skim Milk", "1x 2 Sugars"],
+                    "quantity": 1,
+                    "expected_total": "$4.50"
+                },
+                {
+                    "category": "Lunch",
+                    "type": "Mains",
+                    "name": "Halloumi Burger",
+                    "details": ["Add Bacon", "Watermelon Smash Sour (Can)"],
+                    "expected_cart_details": ["1x Add Bacon", "1x Watermelon Smash Sour by Stomping Ground"],
+                    "quantity": 1,
+                    "expected_total": "$37.00"
+                },
+                {
+                    "category": "Breakfast",
+                    "type": "Breakfast",
+                    "name": "Croque Monsieur",
+                    "details": ["Add chorizo"],
+                    "expected_cart_details": ["1x Add chorizo"],
+                    "quantity": 1,
+                    "expected_total": "$28.00"
+                }
+            ],
+            "expected_total": "$129.00"
+        }
+    }
+}
